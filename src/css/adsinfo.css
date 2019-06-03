@@ -1,0 +1,125 @@
+.adsData {
+  width: 100%;
+  height: 780px;
+  margin-top: 5%;
+  /* margin-left: 1%; */
+  /* border: solid 1px; */
+  display: inline-block;
+}
+.adsImage {
+  width: 60%;
+  height: 470px;
+  margin-top: 1%;
+  margin-left: 1%;
+  /* border: solid 1px; */
+}
+.adsOffer {
+  width: 20%;
+  border: solid 1px rgb(190, 190, 190);
+  /* border: solid 1px rgb(214, 213, 213); */
+  display: inline-block;
+  position: relative;
+  bottom: 790px;
+  left: 70%;
+  height: 250px;
+}
+.adsTitle {
+  width: 20%;
+  background: rgb(8, 65, 255);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-indent: 39%;
+  position: relative;
+  bottom: 763px;
+  left: 70%;
+  height: 22px;
+}
+.aboutAds {
+  width: 20%;
+  border: solid 1px rgb(190, 190, 190);
+  /* border: solid 1px rgb(168, 167, 167); */
+  display: inline-block;
+  position: relative;
+  bottom: 465px;
+  left: 50%;
+  height: 140px;
+}
+.detailsTitle {
+  width: 100%;
+  background: rgb(8, 65, 255);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-indent: 39%;
+  position: relative;
+  bottom: 29px;
+  left: 0%;
+  height: 22px;
+}
+.aboutSeller {
+  width: 60%;
+  border: solid 1px rgb(190, 190, 190);
+  /* border: solid 1px red; */
+  display: inline-block;
+  position: relative;
+  bottom: 280px;
+  right: 39%;
+  height: 185px;
+}
+.sellersDetails {
+  width: 100%;
+  background: rgb(8, 65, 255);
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-indent: 39%;
+  position: relative;
+  bottom: 29px;
+  left: 0%;
+  height: 22px;
+}
+@media only screen and (max-width: 400px) {
+  .adsData {
+    width: 100%;
+    height: 932px;
+    margin-top: 12%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .adsImage {
+    width: 98%;
+    height: 252px;
+    /* margin-top: 1%;
+    margin-left: 1%; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  .adsTitle {
+    width: 91%;
+    bottom: 662px;
+    left: 4%;
+    height: 22px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .adsOffer {
+    width: 90%;
+    bottom: 659px;
+    left: 4%;
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .aboutAds {
+    width: 91%;
+    bottom: 611px;
+    left: 4%;
+    height: 140px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .aboutSeller {
+    width: 91%;
+    bottom: 569px;
+    left: 4%;
+    height: 185px;
+  }
+}

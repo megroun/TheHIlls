@@ -1,0 +1,151 @@
+/* #mySlide{
+    display: flex;
+}
+.slideContainer{
+    top: 100px;
+    border: solid green;
+}
+.classification{
+    display: inline-block;
+    position: relative;
+    border: solid 1px red;
+    width: 420px;
+    height: 225px;
+    top: 3px;
+    left: 3px;
+    vertical-align: middle;
+}
+.classification2{
+    display: inline-block;
+    position: relative;
+    border: solid 1px blue;
+    width: 320px;
+    height: 225px;
+    top: 3px;
+    left: 3px;
+    vertical-align: middle;
+}
+.classification3{
+    display: inline-block;
+    position: relative;
+    border: solid 2px green;
+    width: 320px;
+    height: 225px;
+    top: 3px;
+    left: 3px;
+    vertical-align: middle;
+}
+.classify{
+    width: auto;
+    height: auto;
+    display: block;
+    font-family: verdana;
+    color: gray;
+    position: relative;
+    top: 0px;
+    text-indent: 20px;
+    padding-top: 20px;
+    height: 225px;
+    width: 317px;
+    border: solid 1px blue;
+}
+.carousel-indicators{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    border: solid 1px red;
+    background: url('./rightArrow.png');
+    position: relative;
+    left: 100px;
+}
+#circle{
+    background-color: red;
+    border-radius: 20px;
+}
+.images{
+    width: 100px;
+    height: 50px
+}
+#previous{
+    position: absolute;
+} */
+.mainContainers {
+  /* overflow-y: hidden; */
+  display: block;
+  /* top: 100px; */
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.row {
+  display: flex;
+  /* -webkit-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* .firstContainer {
+  display: flex;
+  height: 430px;
+  width: 1345px;
+}
+.secondContainer {
+  display: flex;
+  height: 430px;
+  position: relative;
+  top: 440px;
+  width: 100%;
+}
+.thirdContainer {
+  display: flex;
+  height: 430px;
+  position: relative;
+  top: 910px;
+  width: 100%;
+} */
+.card1 {
+  width: 339px;
+  height: 495px;
+  padding-left: 0px;
+}
+.classfiy {
+  top: 30px;
+  left: 25px;
+  display: flex;
+}
+/* .cardContainers{
+    display: flex;
+    border: solid 1px red;
+    top: 100px;
+    position: relative;
+    height: 800px;
+} */
+/* .container2 {
+  border: solid 1px red;
+  display: block;
+}
+.card2 {
+  width: 339px;
+  height: 495px;
+  padding-left: 0px;
+  display: flex;
+}
+.classfiy2 {
+  top: 30px;
+  left: 25px;
+  display: flex;
+} */
+@media only screen and (max-width: 400px) {
+  /* .firstContainer,
+  .secondContainer,
+  .thirdContainer */
+  .row .card1 {
+    display: block;
+    margin: auto auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #root {
+    width: 390px;
+  }
+}

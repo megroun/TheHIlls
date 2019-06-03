@@ -1,0 +1,35 @@
+.mainBanner {
+  position: relative;
+  /* border: solid 1px blue; */
+  width: 100%;
+  /* width: 1349px; */
+  height: auto;
+  top: 2%;
+  /* top: 59px; */
+  /* height: 470px; */
+  overflow-x: hidden;
+}
+/* .test{
+    top: 58px;
+    height: 200px;
+}  */
+.banner {
+  overflow-x: hidden;
+  /* width: 1349px; */
+  width: 100%;
+  height: auto;
+  /* height: 460px; */
+}
+
+/* @media only screen and (max-width: 400px) {
+  .mainBanner {
+    top: 2%;
+  }
+} */
+/* @media only screen and (max-width: 168px) {
+  [class*="banner"] {
+    width: 100%;
+    height: auto;
+    top: 5%;
+  }
+} */
